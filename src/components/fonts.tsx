@@ -6,7 +6,8 @@ const Cinze = Cinzel({subsets:["latin"]});
 const Montserra = Montserrat({subsets:["latin"]});
 const Prat = Prata({ subsets: ["latin"], weight: "400" });
 // const Bodoni = Bodoni_Moda({ subsets: ["latin"], weight: "500" });
-const Bodoni = Bodoni_Moda({ subsets: ["latin"]});
+const Bodoni = Bodoni_Moda({ subsets: ["latin"], weight: ["400", "700"] });
+
 
 
 

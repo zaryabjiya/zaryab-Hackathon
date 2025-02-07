@@ -1,0 +1,58 @@
+"use client"
+const Products = [ 
+    {
+    title:"VERTICAL STRIPED SHIRT",
+    price: 1200,
+    id:1,
+    img_url:[ "/pic9.png", "/pic10.png"],
+    category: "Clothing",
+    description: "A high-quality cotton t-shirt with stylish design",
+    size: ["Small", "Medium", "Large", "X-Large"],
+    color: ["brown", "darkgreen", "black"],
+    qty: 1,
+    discount : 10,
+    slug: "stylish-t-shirt", 
+},
+{
+    title:" STRIPED SHIRT",
+    price: 3500,
+    id:2,
+    img_url:["/pic1.png", "/pic4.png"],
+    category: "Footwear",
+    description: "Comfortable and durable running shoes for daily wear",
+    size: ["Small", "Medium", "Large", "X-Large"],
+    color: ["red", "darkblue", "black"],
+    qty: 1,
+    discount : 15,
+    slug: "Running-Shoe", 
+},
+{
+    title:"Checked Shirt",
+    price: 5000,
+    id:3,
+    img_url:["/pic3.png","/pic5.png"],
+    category: "Electronics",
+    description: "A high-quality cotton t-shirt with stylish design",
+    size: ["Small", "Medium", "Large", "X-Large"],
+    color: ["maroon", "darkgray", "darkblue"],
+    qty: 1,
+    discount : 0,
+    slug: "smart-watch", 
+},
+{
+    title:"Blue-Jeans",
+    price: 1600,
+    id:4,
+    img_url:["/pic2.png", "/pic7.png"],
+    category: "accessories",
+    description: "A sleek smart watch with fitness tracking features..",
+    size: ["Small", "Medium", "Large", "X-Large"],
+    color: ["darkgray", "black", "darkblue"],
+    qty: 1,
+    discount : 5,
+    slug: "Leather-Wallet", 
+},
+
+]
+
+export default Products
